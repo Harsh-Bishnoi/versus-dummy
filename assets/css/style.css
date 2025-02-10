@@ -147,9 +147,41 @@
     margin-bottom: 132px !important;
 }
 
+/* section 1 */
+.mt-47 {
+    margin-top: 47px !important;
+}
 
+.card-img {
+    width: 318px;
+    height: 100%;
+    padding: 16px 16px 24px 16px;
+    border: 1px solid #0F1215;
+    border-radius: 16px !important;
+    background: #0D1012;
+    backdrop-filter: blur(40px)
+}
 
+.gap-12 {
+    gap: 12px;
+}
 
+.max-w-1048 {
+    max-width: 1048px;
+}
+
+.game-slider .slick-track {
+    display: flex;
+    gap: 24px;
+}
+
+.game-slider .slick-slide {
+    height: inherit !important;
+}
+
+.mb-96 {
+    margin-bottom: 96px;
+}
 
 @media (max-width:991.98px) {
     .nav-link {
