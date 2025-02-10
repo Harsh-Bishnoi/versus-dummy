@@ -212,6 +212,56 @@
     margin-bottom: 103px;
 }
 
+
+
+/* footer */
+.footer-line {
+    border: 1px solid #1F272E;
+}
+
+.mt-32 {
+    margin-top: 32px !important;
+}
+
+.pt-32 {
+    padding-top: 32px;
+}
+
+.pb-32 {
+    padding-bottom: 32px;
+}
+
+.max-w-965 {
+    max-width: 965px;
+}
+
+.footer-input {
+    width: 380px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 12px;
+    border: none;
+    background-color: black;
+}
+
+.input-circle {
+    width: 40;
+    height: 40;
+    gap: 8px;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.pt-12 {
+    padding-top: 12px;
+}
+
+.pt-16 {
+    padding-top: 16px;}
+
 @media (max-width:991.98px) {
     .nav-link {
         display: flex !important;
