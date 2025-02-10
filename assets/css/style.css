@@ -1,0 +1,173 @@
+@import url(./root.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.max-w-1344 {
+    max-width: 1344px !important;
+}
+
+.max-w-1440 {
+    max-width: 1440px !important;
+}
+
+.menu-lines {
+    width: 30px;
+    height: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    transition: all 300ms linear;
+    transform-origin: left;
+    border-radius: 10px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.rotate-42 {
+    transform: rotate(42deg);
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+.z-6 {
+    z-index: 6;
+}
+
+.rotate-43 {
+    transform: rotate(-43deg);
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.py-16 {
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+
+.nav-btn {
+    padding: 12px 20px 12px 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+.text-hover {
+    padding: 2px 0;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-hover::before {
+    content: '';
+    background: red;
+    position: absolute;
+    bottom: 0px;
+    width: 0;
+    height: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-hover:hover::before {
+    width: 100%;
+}
+
+.bg-img {
+    background-image: url(../image/png/header-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-btn {
+    gap: 8px;
+    padding-top: 2px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    border-radius: 40px;
+}
+
+.nav-btn-2 {
+    gap: 4px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    border-radius: 12px;
+}
+
+.nav-btn-3 {
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    border-radius: 12px;
+}
+
+.gap-48 {
+    gap: 48px;
+}
+
+/* header */
+.mt-164 {
+    margin-top: 164px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.max-w-835 {
+    max-width: 835px;
+}
+
+.compete-btn {
+    border-radius: 12px;
+    padding: 16px 24px 16px 24px;
+}
+
+.circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    background-color: var(--bg-neutrals);
+}
+
+.max-w-181 {
+    max-width: 181px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-132 {
+    margin-bottom: 132px !important;
+}
+
+
+
+
+
+@media (max-width:991.98px) {
+    .nav-link {
+        display: flex !important;
+        flex-direction: column;
+        background-color: red !important;
+        width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        justify-content: center;
+        bottom: 0;
+        right: -100% !important;
+        top: 0%;
+        transition: all 300ms linear !important;
+        z-index: 5;
+    }
+
+    .show-navbar {
+        right: 0 !important;
+    }
+}
