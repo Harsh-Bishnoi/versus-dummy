@@ -10,6 +10,7 @@
     --color-neutral-500: #4D545E;
     --bg-neutral-600: #1F272E;
     --bg-neutral-800: #0D1012;
+    --color-greenyellow-800: #1F2309;
     /* font-size */
     --fs-sm: 12px;
     --fs-base: 14px;
@@ -26,6 +27,7 @@
     --lh-86: 86.4px;
     /* opacity */
     --opacity-40: 40%;
+    --opacity-60: 60%;
 }
 
 /* font-family */
@@ -64,6 +66,10 @@
 
 .bg-neutral-800 {
     background-color: var(--bg-neutral-800);
+}
+
+.color-greenyellow-800 {
+    color: var(--color-greenyellow-800);
 }
 
 /* font-size */
@@ -124,6 +130,10 @@
 
 .opacity-40 {
     opacity: var(--opacity-40);
+}
+
+.opacity-60 {
+    opacity: var(--opacity-60);
 }
 
 @media (max-width:767.98px) {

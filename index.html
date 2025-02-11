@@ -21,32 +21,61 @@
 <body class="bg-black">
     <!-- header -->
     <header class="min-vh-100 bg-img d-flex justify-content-center align-items-center flex-column">
-        <!-- <nav class="w-100 bg-neutrals">
+        <nav class="bg-neutrals w-100">
             <div class="container max-w-1440">
-                <div class="d-flex align-items-center justify-content-between w-100">
-                    <ul class="list-unstyled d-flex align-items-center gap-48">
-                        <li>
-                            <a class="z-6" href="">
-                                <img src="./assets/image/svg/nav-logo.svg" alt="nav-logo">
-                            </a>
-                        </li>
-                        <li>
-                            <img src="./assets/image/svg/game-logo.png" alt="game-logo">
-                        </li>
-                        <li>
-                            <a class="text-decoration-none font-family-primary fw-bold fs-base lh-16 color-accent"
-                                href="">GAMES</a>
-                        </li>
-                        <li>
-                            <a class="text-decoration-none font-family-primary fw-bold fs-base lh-16 color-neutral-500"
-                                href="">NEWS</a>
-                        </li>
-                        <li>
-                            <button class="nav-btn font-family-primary fw-normal fs-sm lh-16 color-neutral-400 bg-neutral-600">Coming Soon</button>
-                        </li>
-                    </ul>
-                    <ul id="name"
-                        class="d-flex mb-0 align-items-center gap-24 nav-link list-unstyled justify-content-center">
+                <div
+                    class="d-flex justify-content-between w-100 nav-bar mx-auto  bg-neutrals justify-content-center align-items-center">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a href="#" class="header-logo z-6">
+                            <img class=" nav-logo" src="./assets/image/svg/nav-logo.svg" alt="logo" />
+                        </a>
+                        <div class="dropdown-box">
+                            <button class="drop-btn border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <img src="./assets/image/svg/game-logo.png" alt="dropdown"/>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark mb-0">
+                                <li><a class="dropdown-item text-decoration-none font-family-primary fw-normal fs-6"
+                                        href="#">Board Games</a></li>
+                                <li><a class="dropdown-item text-decoration-none font-family-primary fw-normal fs-6"
+                                        href="#">Fun Games</a></li>
+                                <li><a class="dropdown-item text-decoration-none font-family-primary fw-normal fs-6"
+                                        href="#">Puzzles Games</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="list-unstyled d-flex nav-link align-items-center ml-24 mb-0 gap-24" id="name">
+                            <li>
+                                <a class="text-decoration-none font-family-primary fw-bold fs-base lh-16 color-accent"
+                                    href="">GAMES</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none font-family-primary fw-bold fs-base lh-16 color-neutral-500"
+                                    href="">NEWS</a>
+                            </li>
+                            <li>
+                                <button
+                                    class="nav-btn font-family-primary fw-normal fs-sm lh-16 color-neutral-400 bg-neutral-600">Coming
+                                    Soon</button>
+                            </li>
+                            <li class="d-lg-none">
+                                <button
+                                    class="nav-btn-2 font-family-primary fw-medium lh-16 fs-6 text-white border-0">Log
+                                    In</button>
+                            </li>
+                            <li class="d-lg-none">
+                                <button
+                                    class="nav-btn-3 font-family-primary fw-medium lh-16 fs-6 text-black border-0">Sign
+                                    Up</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div onclick="navbarbtn()" class="z-5 d-lg-none cursor-pointer">
+                        <span class="menu-lines bg-white" id="rotates"></span>
+                        <span class="menu-lines bg-white" id="transparent"></span>
+                        <span class="menu-lines bg-white" id="rotates-2"></span>
+                    </div>
+                    <ul id="name" class="d-flex gap-24 list-unstyled mb-0 nav-link">
                         <li>
                             <button class="nav-btn-2 font-family-primary fw-medium lh-16 fs-6 text-white border-0">Log
                                 In</button>
@@ -56,14 +85,9 @@
                                 Up</button>
                         </li>
                     </ul>
-                    <div onclick="navbarbtn()" class="z-5 d-lg-none cursor-pointer">
-                        <span class="menu-lines bg-light" id="rotates"></span>
-                        <span class="menu-lines bg-light" id="transparent"></span>
-                        <span class="menu-lines bg-light" id="rotates-2"></span>
-                    </div>
                 </div>
             </div>
-        </nav> -->
+        </nav>
         <div class="flex-grow-1 justify-content-center align-items-center mt-164">
             <div class="container max-w-1344 mb-132">
                 <div class="d-flex justify-content-between">
@@ -105,7 +129,7 @@
             </div>
         </div>
     </header>
-    <!-- game slider section -->
+    <!-- game slider section 2 -->
     <section class="game-slider d-flex justify-content-center align-items-center">
         <div class="container max-w-1344">
             <div class="d-flex justify-content-center align-items-center">
@@ -156,7 +180,7 @@
             </div>
         </div>
     </section>
-    <!-- grind section -->
+    <!-- grind section 3 -->
     <section class="d-flex justify-content-center align-items-center bg-img-2">
         <div class="container max-w-1440 mt-181">
             <div class="d-flex justify-content-center">
@@ -180,9 +204,9 @@
             </div>
         </div>
     </section>
-    <!-- news section -->
+    <!-- news section 5 -->
     <section class="d-flex justify-content-center align-items-center">
-        <div class="container max-w-1344 mb-5">
+        <div class="container max-w-1344">
             <div class="border-left">
                 <h2 class="font-family-primary fw-bold lh-24 fs-4 text-white mb-0 pl-16">NEWS</h2>
             </div>
@@ -262,7 +286,7 @@
         </div>
     </section>
     <!-- footer -->
-    <footer class="bg-neutral-800">
+    <footer class="bg-neutral-800 mt-56">
         <div class="container max-w-1344">
             <div class="d-sm-flex gap-48 justify-content-center pt-32">
                 <img src="./assets/image/svg/nav-logo.svg" alt="">
