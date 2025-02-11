@@ -7,42 +7,36 @@ const navbarbtn = () => {
 }
 
 $('.games-select-slider').slick({
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
     dots: false,
+    infinite: true,
     arrows: false,
-    centerMode: true,
-    centerPadding: '60px',
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     responsive: [
         {
-            breakpoint: 1200,
+            breakpoint: 1024,
             settings: {
-                dots: false,
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
                 slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
             }
         },
         {
-            breakpoint: 768,
+            breakpoint: 600,
             settings: {
-                dots: false,
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                dots: false
             }
         },
         {
             breakpoint: 480,
             settings: {
-                dots: false,
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false
             }
         }
     ]

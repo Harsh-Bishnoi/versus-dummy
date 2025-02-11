@@ -101,12 +101,6 @@
     width: 100%;
 }
 
-.bg-img {
-    background-image: url(../image/png/header-bg-img.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .nav-btn {
     gap: 8px;
     padding-top: 2px;
@@ -145,12 +139,33 @@
 }
 
 /* header */
-.mt-164 {
-    margin-top: 164px;
+.parent-box{
+    transform: translateY(-70%);
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 48px !important;
+    height: 4px !important;
+    cursor: pointer;
+    background-color: var(--bg-neutrals) !important;
+    opacity: 100% !important;
+}
+
+.carousel-indicators .active {
+    background-color: var(--bg-accent) !important;
+    opacity: 100% !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url(../image/png/next-arrow.png) !important;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../image/png/prev-arrow.png) !important;
 }
 
 .mt-40 {
-    margin-top: 40px;
+    margin-top: 40px !important;
 }
 
 .max-w-835 {
@@ -179,10 +194,6 @@
 
 .max-w-181 {
     max-width: 181px;
-}
-
-.mt-40 {
-    margin-top: 40px;
 }
 
 .mb-132 {
@@ -238,7 +249,6 @@
     background-position: center;
 }
 
-
 .mt-181 {
     margin-top: 181px !important;
 }
@@ -249,7 +259,6 @@
     height: 480px;
     border-radius: 16px;
 }
-
 
 .mt-240 {
     margin-top: 240px;
@@ -291,10 +300,6 @@
     max-width: 538px;
 }
 
-.mt-40 {
-    margin-top: 40px;
-}
-
 /* section 5 */
 
 .border-left {
@@ -309,20 +314,12 @@
     gap: 7px;
 }
 
-.gap-8 {
-    gap: 8px;
-}
-
 .max-w-612 {
     max-width: 612px;
 }
 
 .max-w-347 {
     max-width: 347px;
-}
-
-.mt-40 {
-    margin-top: 40px !important;
 }
 
 .valorant-btn {
@@ -364,6 +361,11 @@
     background: var(--bg-accent);
     border-radius: 12px;
     padding-right: 20px !important;
+}
+
+.gradient-light {
+    bottom: -33%;
+    left: 0;
 }
 
 .max-w-457 {
@@ -442,10 +444,6 @@
     padding: 12px;
 }
 
-.gap-8 {
-    gap: 8px;
-}
-
 .pt-12 {
     padding-top: 12px;
 }
@@ -490,6 +488,10 @@
 
     .section-6-box {
         padding: 20px !important;
+    }
+
+    .mt-240 {
+        margin-top: 100px;
     }
 }
 
