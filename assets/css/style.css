@@ -84,7 +84,7 @@
 
 .text-hover::before {
     content: '';
-    background: red;
+    background: var(--bg-accent);
     position: absolute;
     bottom: 0px;
     width: 0;
