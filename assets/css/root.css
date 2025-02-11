@@ -1,12 +1,14 @@
 :root {
     /* font-family */
-    --font-family-primary: "Roboto", serif;
+    --font-family-primary: "Normalidad";
     /* color */
     --bg-accent: #D4FF27;
     --color-accent: #D4FF27;
     --bg-neutrals: #151A1F;
     --color-neutral-300: #6E7681;
+    --color-neutral-400: #545E6C;
     --color-neutral-500: #4D545E;
+    --bg-neutral-600: #1F272E;
     --bg-neutral-800: #0D1012;
     /* font-size */
     --fs-sm: 12px;
@@ -48,8 +50,16 @@
     color: var(--color-neutral-300);
 }
 
+.color-neutral-400 {
+    color: var(--color-neutral-400);
+}
+
 .color-neutral-500 {
     color: var(--color-neutral-500);
+}
+
+.bg-neutral-600 {
+    background-color: var(--bg-neutral-600);
 }
 
 .bg-neutral-800 {
