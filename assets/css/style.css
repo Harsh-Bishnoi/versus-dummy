@@ -183,6 +183,7 @@
     height: 4px !important;
     cursor: pointer;
     background-color: var(--bg-neutrals) !important;
+    transform: translateY(-280px) !important;
 }
 
 .carousel-indicators .active {
@@ -273,6 +274,10 @@
 .game-slider .slick-track {
     display: flex;
     gap: 24px;
+}
+
+.letter-space {
+    letter-spacing: 5px !important;
 }
 
 .game-slider .slick-slide {

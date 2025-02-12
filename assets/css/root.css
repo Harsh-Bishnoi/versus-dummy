@@ -79,6 +79,11 @@
     font-size: var(--fs-2xl);
 }
 
+@media (max-width:991.98px) {
+    :root {
+        --fs-2xl: 70px;
+    }
+}
 @media (max-width:767.98px) {
     :root {
         --fs-2xl: 60px;
@@ -87,7 +92,7 @@
 
 @media (max-width:575.98px) {
     :root {
-        --fs-2xl: 40px;
+        --fs-2xl: 50px;
         --fs-xl: 30px;
     }
 }
