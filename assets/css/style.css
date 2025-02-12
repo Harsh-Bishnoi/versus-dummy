@@ -139,7 +139,7 @@
 }
 
 /* header */
-.parent-box{
+.parent-box {
     transform: translateY(-70%);
 }
 
@@ -288,6 +288,15 @@
     transition: all 200ms linear;
 }
 
+.max-w-95 {
+    max-width: 95px;
+}
+.max-w-132{
+    max-width: 132px;
+}
+.max-w-114{
+    max-width: 114px;
+}
 .gap-8 {
     gap: 8px;
 }
@@ -325,6 +334,7 @@
 .valorant-btn {
     padding: 8px 12px 8px 12px;
     border-radius: 48px;
+    max-width: 77px;
     transform: translateY(-15px);
 }
 
@@ -336,6 +346,7 @@
 .valorant-btn-2 {
     padding: 4px 8px;
     border-radius: 48px;
+    max-width: 77px;
 }
 
 .max-w-300 {
