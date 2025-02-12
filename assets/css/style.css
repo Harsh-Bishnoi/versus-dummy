@@ -105,13 +105,6 @@
     z-index: 6 !important;
 }
 
-.nav-btn {
-    padding: 12px 20px 12px 20px;
-    border-radius: 50px;
-    border: none;
-    transition: all 300ms linear;
-}
-
 .text-hover {
     padding: 2px 0;
     position: relative;
@@ -134,10 +127,7 @@
 
 .nav-btn {
     gap: 8px;
-    padding-top: 2px;
-    padding-right: 8px;
-    padding-bottom: 2px;
-    padding-left: 8px;
+    padding: 2px 8px 2px 8px;
     border-radius: 40px;
 }
 
@@ -198,10 +188,6 @@
     background-image: url(../image/png/prev-arrow.png) !important;
 }
 
-.dropdown-toggle::after {
-    color: var(--color-neutral-500);
-}
-
 .mt-40 {
     margin-top: 40px !important;
 }
@@ -232,10 +218,6 @@
 
 .max-w-181 {
     max-width: 181px;
-}
-
-.mb-132 {
-    margin-bottom: 132px !important;
 }
 
 /* section 1 */
