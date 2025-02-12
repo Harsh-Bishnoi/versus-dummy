@@ -225,6 +225,10 @@
     margin-top: 47px !important;
 }
 
+.mt-57 {
+    margin-top: -57px;
+}
+
 .card-img {
     width: 318px;
     height: 100%;
@@ -568,6 +572,16 @@
 
     .lh-86 {
         line-height: normal;
+    }
+
+    .mt-57 {
+        margin-top: -20px !important;
+    }
+}
+
+@media (max-width:767.98px) {
+    .mt-57 {
+        margin-top: -10px !important;
     }
 }
 
