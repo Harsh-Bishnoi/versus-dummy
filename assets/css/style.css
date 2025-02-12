@@ -5,6 +5,41 @@
     src: url(../font/NormalidadCompact-Medium.ttf);
 }
 
+/* line height */
+.lh-16 {
+    line-height: 16px;
+}
+
+.lh-18 {
+    line-height: 18px;
+}
+
+.lh-20 {
+    line-height: 20px;
+}
+
+.lh-24 {
+    line-height: 24px;
+}
+
+.lh-36 {
+    line-height: 36px;
+}
+
+.lh-86 {
+    line-height: 86.4px;
+}
+
+/* opacity */
+.opacity-40 {
+    opacity: 40%;
+}
+
+.opacity-60 {
+    opacity: 60%;
+}
+
+/* nav bar  */
 .max-w-1344 {
     max-width: 1344px !important;
 }
@@ -216,6 +251,10 @@
     border-radius: 16px !important;
     background: var(--bg-neutral-800);
     backdrop-filter: blur(40px)
+}
+
+.pt_4 {
+    padding-top: 4px !important;
 }
 
 .coming-soon-svg {
@@ -532,6 +571,10 @@
     .mt-240 {
         margin-top: 100px;
     }
+
+    .lh-86 {
+        line-height: normal;
+    }
 }
 
 @media (max-width:575.98px) {
@@ -541,5 +584,9 @@
 
     .pl-96 {
         padding-left: 20px !important;
+    }
+
+    .lh-36 {
+        line-height: normal;
     }
 }
