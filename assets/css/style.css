@@ -112,10 +112,6 @@
     transition: all 300ms linear;
 }
 
-.nav-btn:hover {
-    background-color: var(--bg-accent);
-}
-
 .text-hover {
     padding: 2px 0;
     position: relative;
@@ -175,7 +171,7 @@
 
 /* header */
 .parent-box {
-    transform: translateY(-70%);
+    transform: translateY(-50%);
 }
 
 .carousel-indicators [data-bs-target] {
@@ -183,7 +179,10 @@
     height: 4px !important;
     cursor: pointer;
     background-color: var(--bg-neutrals) !important;
-    transform: translateY(-280px) !important;
+    transform: translateY(-200px) !important;
+    border-top: unset !important;
+    border-bottom: unset !important;
+    border-radius: 24px;
 }
 
 .carousel-indicators .active {
