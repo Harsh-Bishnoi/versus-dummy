@@ -28,8 +28,8 @@
 }
 
 .dropdown-box {
-    border-right: 1px solid #1F272E;
-    border-left: 1px solid #1F272E;
+    border-right: 1px solid var(--bg-neutral-600);
+    border-left: 1px solid var(--bg-neutral-600);
 }
 
 .drop-btn {
@@ -39,7 +39,7 @@
 
 .dropdown-menu a:hover {
     background: var(--bg-accent);
-    color: black;
+    color: var(--color-black);
 }
 
 .ml-24 {
@@ -131,7 +131,7 @@
 
 .nav-btn-3:hover {
     opacity: 70%;
-    color: black !important;
+    color: var(--color-black) !important;
 }
 
 .gap-48 {
@@ -212,9 +212,9 @@
     width: 318px;
     height: 100%;
     padding: 16px 16px 24px 16px;
-    border: 1px solid #0F1215;
+    border: 1px solid var(--color-ruined-smores);
     border-radius: 16px !important;
-    background: #0D1012;
+    background: var(--bg-neutral-800);
     backdrop-filter: blur(40px)
 }
 
@@ -440,7 +440,7 @@
 
 /* footer */
 .footer-line {
-    border: 1px solid #1F272E;
+    border: 1px solid var(--bg-neutral-600);
 }
 
 .mt-32 {
@@ -464,7 +464,7 @@
     padding: 12px 16px 12px 16px;
     border-radius: 12px;
     border: none;
-    background-color: black;
+    background-color: var(--color-black);
 }
 
 .input-circle {
@@ -473,6 +473,14 @@
     gap: 8px;
     border-radius: 12px;
     padding: 12px;
+}
+
+.input-circle:hover {
+    background-color: var(--color-black);
+
+    path {
+        stroke: var(--bg-accent);
+    }
 }
 
 .pt-12 {
@@ -491,7 +499,7 @@
     .nav-link {
         display: flex !important;
         flex-direction: column;
-        background-color: black !important;
+        background-color: var(--color-black) !important;
         width: 100%;
         min-height: 100vh;
         position: fixed;
