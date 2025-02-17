@@ -360,6 +360,17 @@
 }
 
 /* section 5 */
+.h-360 {
+    height: 360px;
+}
+
+.w-180 {
+    width: 180px;
+}
+
+.h-173 {
+    height: 173px;
+}
 
 .border-left {
     border-left: 3px solid var(--bg-accent);
@@ -635,16 +646,4 @@
         border-top-right-radius: 8px;
         border-bottom-right-radius: 8px;
     }
-}
-
-.h-360 {
-    height: 360px;
-}
-
-.w-180 {
-    width: 180px;
-}
-
-.h-173 {
-    height: 173px;
 }
